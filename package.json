@@ -1,0 +1,56 @@
+{
+  "name": "findhit-hotplug",
+  "version": "0.0.1",
+  "description": "Hotplug is an universal plugin manager system for nodejs apps",
+  "main": "index.js",
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "license": "GPL V3",
+  "contributors": [
+    {
+      "name": "José Moreira",
+      "email": "jose.moreira@findhit.com"
+    },
+    {
+      "name": "Bruno Casanova",
+      "email": "bruno.casanova@findhit.com"
+    },
+    {
+      "name": "Gabriel Conceição",
+      "email": "gabriel.conceicao@findhit.com"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --globals setImmediate,clearImmediate --check-leaks --colors -t 10000 --reporter spec $(find tests/* -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/findhit/findhit-hotplug"
+  },
+  "dependencies": {
+    "findhit-class": "^0.0.2",
+    "findhit-evented": "0.0.1",
+    "findhit-promise": "^0.0.3",
+    "findhit-util": "^0.0.8"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3",
+    "sinon": "^1.10.3"
+  },
+  "keywords": [
+    "pluggable",
+    "plugin",
+    "system",
+    "universal",
+    "plug",
+    "hotplug",
+    "nodejs",
+    "findhit"
+  ],
+  "bugs": {
+    "url": "https://github.com/findhit/findhit-hotplug/issues"
+  }
+}
