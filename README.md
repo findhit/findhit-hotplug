@@ -1,4 +1,4 @@
-# Hotplug ![test-badge](http://strider.findhit.com/findhit/findhit-class/badge)
+# Hotplug ![test-badge](http://strider.findhit.com/findhit/findhit-hotplug/badge)
 
 Hotplug is an universal plugin manager system for nodejs apps
 
