@@ -1,6 +1,6 @@
 {
   "name": "findhit-hotplug",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Hotplug is an universal plugin manager system for nodejs apps",
   "main": "index.js",
   "author": "José Moreira <jose.moreira@findhit.com>",

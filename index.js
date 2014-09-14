@@ -20,7 +20,16 @@ var App = require( './lib/app' ),
 
 	apps = {},
 	loader = function ( app ) {
-		return new App( app );
+
+		if( apps[ app ] ) {
+			return apps[ app ];
+		}
+
+		var Class = apps[ app ] = App.extend({
+			name: app,
+		});
+
+		return Class;
 	};
 
 loader.App = App;
