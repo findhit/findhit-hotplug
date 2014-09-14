@@ -49,4 +49,38 @@ describe( "App", function () {
 
 	});
 
+	describe( ".autoload", function () {
+
+		before(function () {
+
+			this.modules = this.app.autoload();
+
+		});
+
+		it( "check if this.modules arent empty", function () {
+
+			expect( this.modules.length ).to.not.equal( 0 );
+
+		});
+
+		it( "check if `findhit-class` wasn't checked", function () {
+
+			expect( this.modules.indexOf( 'findhit-class' ) ).to.equal( -1 );
+
+		});
+
+		it( "check if `findhit-evented` was checked", function () {
+
+			expect( this.modules.indexOf( 'findhit-evented' ) ).to.not.equal( -1 );
+
+		});
+
+		it( "check if `findhit-util` was checked", function () {
+
+			expect( this.modules.indexOf( 'findhit-util' ) ).to.not.equal( -1 );
+
+		});
+
+	});
+
 });
