@@ -1,6 +1,6 @@
 {
   "name": "findhit-hotplug",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Hotplug is an universal plugin manager system for nodejs apps",
   "main": "index.js",
   "author": "José Moreira <jose.moreira@findhit.com>",
@@ -30,8 +30,7 @@
     "url": "https://github.com/findhit/findhit-hotplug"
   },
   "dependencies": {
-    "findhit-class": "^0.0.3",
-    "findhit-evented": "^0.0.2",
+    "findhit-evented": "0.0.3",
     "findhit-process": "^0.0.1",
     "findhit-promise": "^0.0.3",
     "findhit-util": "^0.2.0"
