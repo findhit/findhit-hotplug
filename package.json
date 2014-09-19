@@ -30,10 +30,11 @@
     "url": "https://github.com/findhit/findhit-hotplug"
   },
   "dependencies": {
-    "findhit-evented": "^0.0.1",
+    "findhit-class": "^0.0.3",
+    "findhit-evented": "^0.0.2",
     "findhit-process": "^0.0.1",
     "findhit-promise": "^0.0.3",
-    "findhit-util": "^0.0.8"
+    "findhit-util": "^0.2.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
