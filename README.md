@@ -1,4 +1,6 @@
-# Hotplug ![test-badge](http://strider.findhit.com/findhit/findhit-hotplug/badge)
+# Hotplug 
+
+[![Test Status](http://strider.findhit.com/findhit/findhit-hotplug/badge)](http://strider.findhit.com/findhit/findhit-hotplug) [![Dependency Status](https://david-dm.org/findhit/findhit-hotplug.svg)](https://david-dm.org/findhit/findhit-hotplug)
 
 Hotplug is an universal plugin manager system for nodejs apps
 
@@ -6,9 +8,7 @@ Instalation
 -----------
 
 ```bash
-
-	npm install findhit-hotplug --save
-
+npm install findhit-hotplug --save
 ```
 
 Usage / Implementation Example
